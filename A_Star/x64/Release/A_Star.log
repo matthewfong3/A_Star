@@ -1,0 +1,8 @@
+﻿  Node.cpp
+  main.cpp
+  Generating code
+  23 of 238 functions ( 9.7%) were compiled, the rest were copied from previous compilation.
+    10 functions were new in current compilation
+    11 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  A_Star.vcxproj -> C:\Users\matth\Documents\DSA2-master\DSA2-master\A_Star\x64\Release\A_Star.exe
