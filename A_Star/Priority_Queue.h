@@ -61,6 +61,8 @@ inline int Priority_Queue<T, U>::GetLeftChild(int i) { return 2 * i + 1; }
 template<typename T, typename U>
 inline int Priority_Queue<T, U>::GetRightChild(int i) { return 2 * i + 2; }
 
+// add the new element to the end of the priority_queue 
+// and then call HeapifyUp() to move the new element to its proper place
 template<typename T, typename U>
 inline void Priority_Queue<T, U>::Push(T k, U v) {
 	keys[size] = k;
@@ -69,14 +71,22 @@ inline void Priority_Queue<T, U>::Push(T k, U v) {
 	HeapifyUp(size - 1);
 }
 
+// removes the last element from the priority_queue
+// first we swap the first and last elements
+// then we remove the last element by setting it equal to null
+// then we call HeapifyDn() on the first element to move it back to its proper place
 template<typename T, typename U>
 inline T Priority_Queue<T, U>::Pop() {
 	T temp = keys[0];
+	//
+	//keys[0] = keys[size - 1];
+	//keys[size - 1] = NULL;
+	//values[0] = values[size - 1];
+	//values[size - 1] = values[size - 2];
 
-	keys[0] = keys[size - 1];
+	swap(0, size - 1);
 	keys[size - 1] = NULL;
-	values[0] = values[size - 1];
-	values[size - 1] = values[size - 2];
+	values[size - 1] = values[size-2];
 	--size;
 
 	HeapifyDn(0);
@@ -84,6 +94,9 @@ inline T Priority_Queue<T, U>::Pop() {
 	return temp;
 }
 
+// min heapify up (moves the smallest element up to the root)
+// (moves smaller elements up priority_queue to their proper place)
+// called when we push a new element to the priority_queue
 template<typename T, typename U>
 inline void Priority_Queue<T, U>::HeapifyUp(int i) {
 	if (i <= 0) return;
@@ -95,6 +108,8 @@ inline void Priority_Queue<T, U>::HeapifyUp(int i) {
 	HeapifyUp(j);
 }
 
+// min heapify down (moves the largest element back down the priority_queue)
+// called when we pop an element from the priority_queue
 template<typename T, typename U>
 inline void Priority_Queue<T, U>::HeapifyDn(int i) {
 	int j;

@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Priority_Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\Priority_Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Priority_Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\Priority_Queue.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\Node.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BFD304ED-7A71-41B2-BD4F-1C413200087D}|A_Star\\A_Star.vcxproj|solutionrelative:A_Star\\Node.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,19 +26,20 @@
       "DocumentGroups": [
         {
           "DockedWidth": 211,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Node.cpp",
               "DocumentMoniker": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Node.cpp",
               "RelativeDocumentMoniker": "A_Star\\Node.cpp",
               "ToolTip": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Node.cpp",
               "RelativeToolTip": "A_Star\\Node.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-18T18:26:37.597Z"
+              "WhenOpened": "2024-09-18T18:26:37.597Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -50,32 +51,34 @@
               "RelativeToolTip": "A_Star\\Node.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-18T18:12:22.076Z"
+              "WhenOpened": "2024-09-18T18:12:22.076Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Priority_Queue.h",
               "DocumentMoniker": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Priority_Queue.h",
               "RelativeDocumentMoniker": "A_Star\\Priority_Queue.h",
               "ToolTip": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\Priority_Queue.h",
               "RelativeToolTip": "A_Star\\Priority_Queue.h",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFgAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-09-17T23:01:50.808Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\main.cpp",
               "RelativeDocumentMoniker": "A_Star\\main.cpp",
               "ToolTip": "C:\\Users\\matth\\Documents\\DSA2-master\\DSA2-master\\A_Star\\A_Star\\main.cpp",
               "RelativeToolTip": "A_Star\\main.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAPkAAAACAAAAAAAAAA==",
+              "ViewState": "AgIAAO0AAAAAAAAAAAAAANAAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-17T23:00:45.131Z"
+              "WhenOpened": "2024-09-17T23:00:45.131Z",
+              "EditorCaption": ""
             }
           ]
         }
